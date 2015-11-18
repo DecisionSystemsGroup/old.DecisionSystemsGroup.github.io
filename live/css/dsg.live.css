@@ -24,6 +24,12 @@ body{
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+.menu{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
 .youtube-player{
   display: block;
   margin-left: auto;
@@ -34,4 +40,23 @@ body{
 }
 .youtube-player iframe{
   border-radius: 15px;
+}
+.events h1{
+  color: rgb(224, 224, 224);
+  font-weight: bolder;
+}
+.events h1 span{
+  color: rgb(204, 51, 51);
+}
+.footer{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(224, 224, 224);
+}
+
+.footer span{
+  color: rgb(204, 51, 51);
 }
