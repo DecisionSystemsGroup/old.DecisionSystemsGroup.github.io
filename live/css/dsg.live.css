@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(37, 37, 37);
+}
+.header img{
+  display: block;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+.header ul{
+  text-align: center;
+}
+.header ul li{
+  display: inline;
+  font-size: 30px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.header ul li a:link, .header ul li a:active, .header ul li a:visited {
+  color: rgb(224, 224, 224);
+}
+.header ul li a:hover{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.youtube-player{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 70vw;
+  height: 70vh;
+}
+.youtube-player iframe{
+  border-radius: 15px;
+}
