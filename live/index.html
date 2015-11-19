@@ -37,20 +37,20 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <ul class="nav navbar-nav">
                 <li>
-                  <a class="live" href="#live">
+                  <a class="live" href="#">
                     Live! <span class="sr-only">(current)</span>
                   </a>
                 </li>
-                <li><a href="#comments">Comments</a></li>
-                <li><a href="#upcoming-events">Events</a></li>
+                <li><a href="#comments">Σχόλια</a></li>
+                <li><a href="#upcoming-events">Προσεχώς</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="http://dsg.teiste.gr/">Website</a></li>
-                <li><a href="http://r.dsg.teiste.gr/">Repos</a></li>
+                <li class="active"><a href="http://dsg.teiste.gr/">Ιστοσελίδα</a></li>
+                <li><a href="http://r.dsg.teiste.gr/">Αποθετήρια</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"
                     role="button" aria-haspopup="true" aria-expanded="false">
-                    Social <span class="caret"></span>
+                    Σελίδες <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu">
                     <li>
@@ -136,8 +136,10 @@
             <h1 class="text-center">Προγραμματισμένα <span>Live!</span> Streams</h1>
             <div class="row">
               <div class="col-md-3">
-                <img class="img-responsive img-rounded" alt="HTML workshop"
-                  src="img/events/posterWorkshopHTML-web.jpg" />
+                <a href="#" data-toggle="modal" data-target="#modal-workshop-1">
+                  <img class="img-responsive img-rounded" alt="HTML workshop"
+                    src="img/events/posterWorkshopHTML-web.jpg" />
+                </a>
               </div>
               <div class="col-md-3">
                 <img class="img-responsive img-rounded" alt="Python workshop"
@@ -161,6 +163,61 @@
         Made with <span>&#10084;</span> from the DSG Team.
       </div>
     </div><!-- container -->
+
+    <!-- Modals -->
+    <div class="modal fade" id="modal-workshop-1" tabindex="-1" role="dialog" aria-labelledby="work-1">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="work-1">HTML Workshop</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <img class="img-responsive img-rounded" alt="HTML workshop"
+                  src="img/events/posterWorkshopHTML-web.jpg" />
+                  <p class="text-center">
+                    26/11/2015<br />
+                    Εργαστήριο 13<br />
+                    Κτίριο Σ.Τ.ΕΦ Λαμίας<br /><br />
+                    Ώρα Έναρξης: <b>4:20μμ</b><br />
+                    <b>ΕΙΣΟΔΟΣ ΕΛΕΥΘΕΡΗ</b>
+                  </p>
+              </div>
+              <div class="col-md-8">
+                <p>
+                  Εισαγωγικό Workshop σε HTML 5 και CSS 3. Το workshop καλύπτει:
+                </p>
+                <ul>
+                  <li>Παρουσίαση βασικής δομής μιας σελίδας HTML</li>
+                  <li>Τι είναι τα tags και παρουσίαση των πιο δημοφιλών</li>
+                  <li>Πως συνδέεται μια HTML σελίδα με CSS αρχεία</li>
+                  <li>Classes και Selectors στο CSS</li>
+                  <li>Βασικές τεχνικές CSS</li>
+                  <li>Τι είναι το FTP</li>
+                  <li>Σύνδεση στο users.teilam.gr με Filezilla</li>
+                  <li>Μεταφόρτωση του workshop στο users.teilam.gr</li>
+                </ul>
+                <p>
+                  Το workshop είναι ιδανική εισαγωγή για το μάθημα
+                  "<b><i>Διαδικτυακός Προγραμματισμός</i></b>" (πρώην
+                  Ηλεκτρονικό Εμπόριο).
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Κλείσιμο</button>
+            <a role="button" class="btn btn-primary disabled" href="">Προβολή Facebook Event</a>
+            <a role="button" class="btn btn-success" href="img/events/posterWorkshopHTML-web.jpg">Προβολή Αφίσας</a>
+            <a role="button" class="btn btn-warning disabled" href="">Αποθετήριο</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
