@@ -4,6 +4,8 @@ body{
 }
 .disqus{
     background-color: rgb(37, 37, 37);
+    padding: 30px;
+    border-radius: 6px;
 }
 .navbar-brand img{
   margin-top: -15px;
