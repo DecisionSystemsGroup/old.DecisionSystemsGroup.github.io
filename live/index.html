@@ -134,6 +134,7 @@
         <div id="upcoming-events" class="events">
           <div class="jumbotron">
             <h1 class="text-center">Προγραμματισμένα <span>Live!</span> Streams</h1>
+            <p class="text-right">Πατήστε πάνω στις εικόνες για περισσότερες λεπτομέρειες</p>
             <div class="row">
               <div class="col-md-3">
                 <a href="#" data-toggle="modal" data-target="#modal-workshop-1">
@@ -142,16 +143,22 @@
                 </a>
               </div>
               <div class="col-md-3">
-                <img class="img-responsive img-rounded" alt="Python workshop"
-                  src="img/events/posterWorkshopPython-web.jpg" />
+                <a href="#" data-toggle="modal" data-target="#modal-workshop-0">
+                  <img class="img-responsive img-rounded" alt="Python workshop"
+                    src="img/events/posterWorkshopPython-web.jpg" />
+                </a>
               </div>
               <div class="col-md-3">
-                <img class="img-responsive img-rounded" alt="workshop"
-                  src="img/events/posterWorkshop.jpg" />
+                <a href="#" data-toggle="modal" data-target="#modal-workshop-0">
+                  <img class="img-responsive img-rounded" alt="workshop"
+                    src="img/events/posterWorkshop.jpg" />
+                </a>
               </div>
               <div class="col-md-3">
-                <img class="img-responsive img-rounded" alt="workshop"
-                  src="img/events/posterWorkshop.jpg" />
+                <a href="#" data-toggle="modal" data-target="#modal-workshop-0">
+                  <img class="img-responsive img-rounded" alt="workshop"
+                    src="img/events/posterWorkshop.jpg" />
+                </a>
               </div>
             </div>
           </div>
@@ -165,6 +172,39 @@
     </div><!-- container -->
 
     <!-- Modals -->
+    <div class="modal fade" id="modal-workshop-0" tabindex="-1" role="dialog" aria-labelledby="work-0">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="work-0">Προσεχώς</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <img class="img-responsive img-rounded" alt="HTML workshop"
+                  src="img/events/posterWorkshop.jpg" />
+              </div>
+              <div class="col-md-8">
+                <p>
+                  Δεν υπάρχουν διαθέσιμες λεπτομέρειες προς το παρόν. Δοκιμάστε
+                  Αργότερα
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Κλείσιμο</button>
+            <a role="button" class="btn btn-primary disabled" href="">Προβολή Facebook Event</a>
+            <a role="button" class="btn btn-success disabled" href="">Προβολή Αφίσας</a>
+            <a role="button" class="btn btn-warning disabled" href="">Αποθετήριο</a>
+          </div>
+        </div>
+      </div>
+    </div><!-- work0 -->
+
+
+
     <div class="modal fade" id="modal-workshop-1" tabindex="-1" role="dialog" aria-labelledby="work-1">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -216,7 +256,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div><!-- work1 -->
 
 
     <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
