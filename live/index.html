@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css" />
-    <link rel="stylesheet" href="css/dsg.live.min.css" />
+    <link rel="stylesheet" href="css/dsg.live.css" />
 
     <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -53,7 +53,6 @@
                     Live! <span class="sr-only">(current)</span>
                   </a>
                 </li>
-                <li><a href="#comments">Σχόλια</a></li>
                 <li><a href="#upcoming-events">Προσεχώς</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
@@ -103,46 +102,6 @@
 
       </div><!-- row -->
       <div class="row">
-        <div id="comments" class="comments">
-          <div class="jumbotron">
-            <h1 class="text-center">Σχόλια</h1>
-            <div class="row">
-              <div class="col-md-8">
-                <div class="disqus">
-                  <div id="disqus_thread"></div>
-                  <script>
-                      (function() {
-                          var d = document, s = d.createElement('script');
-
-                          s.src = '//decisionsystemsgroup.disqus.com/embed.js';
-
-                          s.setAttribute('data-timestamp', +new Date());
-                          (d.head || d.body).appendChild(s);
-                      })();
-                  </script>
-                  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <p>
-                  Για γενικά σχόλια, μπορείτε να σχολιάσετε στα αριστερά ως
-                  guests ή να συνδεθείτε με τον Disqus λογαριασμό σας. Τα σχόλια
-                  αυτά μένουν στη σελίδα μας και αφορούν όλα τα streams.
-                </p>
-                <p>
-                  Κατα τη διάρκεια των Live! υπάρχει Live Chat στη Youtube
-                  σελίδα του stream. Αν έχετε Google Account, μπορείτε να
-                  σχολιάζετε live πηγαίνοντας στο παρακάτω link. To link αλλάζει
-                  σε κάθε stream και επομένως αυτά τα σχόλια είναι προσωρινά.
-                </p>
-                <a role="button" class="center-block btn btn-lg btn-danger"
-                  href="https://www.youtube.com/watch?v=xwyGKZmSZEk">
-                  Youtube Stream Page
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
         <div id="upcoming-events" class="events">
           <div class="jumbotron">
             <h1 class="text-center">Προγραμματισμένα <span>Live!</span> Streams</h1>

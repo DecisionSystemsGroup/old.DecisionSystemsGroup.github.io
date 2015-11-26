@@ -2,11 +2,6 @@ body{
   background-color: rgb(37, 37, 37);
   padding-top: 70px;
 }
-.disqus{
-    background-color: rgb(37, 37, 37);
-    padding: 30px;
-    border-radius: 6px;
-}
 .navbar-brand img{
   margin-top: -15px;
   height: 50px;
@@ -25,7 +20,7 @@ body{
 .jumbotron h1 span{
   color: rgb(204, 51, 51);
 }
-.comments, .events{
+.events{
   padding-top: 50px;
 }
 .footer{
