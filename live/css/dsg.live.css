@@ -6,12 +6,10 @@ body{
   margin-top: -15px;
   height: 50px;
 }
-.player{
-  border-radius: 6px;
-}
-.jumbotron{
+.container .jumbotron{
   background-color: rgb(156, 156, 156);
   color: rgb(41, 41, 41);
+  border-radius: 0px;
 }
 .jumbotron h1{
   color: rgb(33, 33, 33);
