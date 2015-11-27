@@ -2,6 +2,9 @@ body{
   background-color: rgb(37, 37, 37);
   padding-top: 70px;
 }
+.gitter iframe{
+	border: 0px;
+}
 .navbar-brand img{
   margin-top: -15px;
   height: 50px;
