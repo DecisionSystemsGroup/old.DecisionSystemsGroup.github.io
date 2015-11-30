@@ -1,0 +1,99 @@
+/*
+	Primary Nav Color: 		#d5044d
+	Secondary Nav Color:	#8b103b
+	Primary Nav Text:		#eee
+	Hover Nav Text:			#fff
+*/
+
+body{
+	background-color: #eee;
+	color: #333;
+    font-family: 'Roboto Slab', serif;
+}
+iframe{
+	border: 0px;
+}
+.navbar{
+	border-radius: 0px;
+}
+.navbar-gitter{
+	background-color: #d5044d;
+	color: #eee;
+}
+.navbar-gitter .navbar-brand:focus, .navbar-gitter .navbar-brand:hover {
+    color: #333;
+    background-color: transparent;
+}
+.navbar-gitter .navbar-brand {
+    color: #eee;
+}
+.navbar-gitter .navbar-brand img{
+	height: 32px;
+	margin-top: -5px;
+}
+.navbar-gitter .navbar-nav > .active > a, .navbar-gitter .navbar-nav > .active > a:focus, .navbar-gitter .navbar-nav > .active > a:hover {
+    color: #FFF;
+    background-color: #8b103b;
+}
+.navbar-gitter .navbar-nav > li > a {
+    color: #eee;
+}
+.navbar-gitter .navbar-nav > li > a:focus, .navbar-gitter .navbar-nav > li > a:hover {
+    color: #FFF;
+    background-color: #8b103b;
+ }
+.navbar-gitter .navbar-nav > .open > a, .navbar-gitter .navbar-nav > .open > a:focus, .navbar-gitter .navbar-nav > .open > a:hover {
+    color: #FFF;
+    background-color: #8b103b;
+ }
+ .navbar-gitter .dropdown-menu > .active > a, .navbar-gitter .dropdown-menu > .active > a:focus, .navbar-gitter .dropdown-menu > .active > a:hover {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #8b103b;
+    outline: 0px none;
+}
+
+.gitter-banner{
+    background-image: url("../img/banner.jpg");
+    background-position: center bottom;
+    color: #eee;    
+    border-radius: 0px;
+}
+.gitter-banner a:link, .gitter-banner a:active, .gitter-banner a:visited{
+    color: #00aeef;
+}
+.gitter{
+    
+}
+.section-header{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header span{
+    color: #d5044d;
+}
+
+.section{
+    font-size: 20px;
+}
+
+.section span{
+    color: #8b103b;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    font-size: 18px;
+}
+
+footer span{
+    color: #C13832;
+}
+
+footer .notice{
+    font-size:10px;
+}
+
