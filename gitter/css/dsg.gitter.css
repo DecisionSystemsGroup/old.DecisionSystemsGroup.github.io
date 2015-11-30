@@ -10,6 +10,7 @@ body{
 	color: #333;
     font-family: 'Roboto Slab', serif;
     padding-top: 70px;
+    position: relative;
 }
 iframe{
 	border: 0px;
@@ -71,12 +72,7 @@ iframe{
     color: #eee;    
     border-radius: 0px;
 }
-.gitter-banner a:link, .gitter-banner a:active, .gitter-banner a:visited{
-    color: #00aeef;
-}
-.gitter{
-    
-}
+
 .section-header{
     font-size: 50px;
     font-weight: bold;
